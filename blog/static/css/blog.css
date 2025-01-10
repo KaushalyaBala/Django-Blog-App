@@ -1,0 +1,105 @@
+/* blog.css */
+
+/* Page Header */
+.page-header {
+    background-color: #C25100;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header .container {
+    text-align: center;
+}
+
+.page-header h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.blog-title {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.blog-title:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    color: #000000;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    color: #C25100;
+    text-decoration: underline;
+}
+
+.date {
+    color: #828282;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #C25100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Post Content */
+.post p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* No posts available message */
+.empty {
+    text-align: center;
+    font-size: 18px;
+    color: #C25100;
+}
+
+/* Global Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:focus {
+    outline: none;
+}
